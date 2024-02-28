@@ -10,6 +10,7 @@ import {
   Text,
   View,
   Image,
+  Platform,
 } from 'react-native';
 
 import Markdown from 'react-native-markdown-display';
@@ -64,7 +65,9 @@ const PostPage = () => {
           {post.title}
         </Text>
         <Image
-          source={{ uri: `/thumbnails/${post.thumbnail}` }}
+          source={{
+            uri: `https://test-blog-blond-nine.vercel.app/thumbnails/${post.thumbnail}`,
+          }}
           style={{ width: '100%', aspectRatio: 16 / 9 }}
         />
         {post?.content && <Markdown>{post.content}</Markdown>}
