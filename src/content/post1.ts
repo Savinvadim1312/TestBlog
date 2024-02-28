@@ -4,6 +4,7 @@ const post: Post = {
   slug: 'post1',
   date: '2024-02-28T13:27:28Z',
   title: 'Sint Delosque sensit lacrimantem certe se tremuisse',
+  thumbnail: 't1.png',
   description: 'Lorem markdownum est potest quam ensis ab aetatis [bis',
   content: `
   ## Sint Delosque sensit lacrimantem certe se tremuisse

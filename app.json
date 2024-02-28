@@ -27,6 +27,8 @@
       "bundler": "metro",
       "output": "static"
     },
-    "plugins": [["expo-router", { "origin": "http://localhost" }]]
+    "plugins": [
+      ["expo-router", { "origin": "https://test-blog-blond-nine.vercel.app/" }]
+    ]
   }
 }

@@ -64,8 +64,8 @@ const PostPage = () => {
           {post.title}
         </Text>
         <Image
-          source={{ uri: '/thumbnails/t1.png' }}
-          style={{ width: 100, height: 100 }}
+          source={{ uri: `/thumbnails/${post.thumbnail}` }}
+          style={{ width: '100%', aspectRatio: 16 / 9 }}
         />
         {post?.content && <Markdown>{post.content}</Markdown>}
       </ScrollView>

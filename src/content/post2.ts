@@ -4,6 +4,7 @@ const post: Post = {
   slug: 'post2',
   date: '2024-01-28T13:27:28Z',
   title: 'Ossa pater Hyrie poscit',
+  thumbnail: 't2.png',
   description: `Lorem markdownum vagus videt ast levant corpusque virtus; hic quaterque *multi*,
   quod pelagi succincta ascendere leges anhelatos conplexa. Clausere viderat:
   volatu tollor nostris Erinys.`,
